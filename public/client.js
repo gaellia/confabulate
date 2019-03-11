@@ -65,6 +65,9 @@ $(function () {
             userName = data.newName;
             userColor = data.color;
             $('#name').html(inner);
+            // update cookies
+            document.cookie = "name=" + data.newName;
+            document.cookie = "color=" + data.color;
         }
     });
 });
