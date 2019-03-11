@@ -1,0 +1,10 @@
+{
+    "name": "socket-chat",
+    "version": "0.0.1",
+    "description": "first chat app using socket.io",
+    "dependencies": {
+        "cookie-parser": "^1.4.4",
+        "express": "^4.16.4",
+        "socket.io": "^2.2.0"
+    }
+}

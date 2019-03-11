@@ -1,0 +1,77 @@
+* {
+    color: #95B2B8;
+    border-radius: 5px;
+}
+
+#container {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 20px 10px;
+    background: #0B132B;
+}
+
+.col-4 {
+    padding: 10px;
+    align-content: right;
+}
+
+.col-8 {
+    padding: 10px;
+    align-content: left;
+}
+
+.col-12 {
+    padding: 10px;
+    text-align: left;
+}
+
+.messages-body {
+    border-color: #70163C;
+    border-style: solid;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.users-body {
+    border-color: #3A506B;
+    border-style: solid;
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#messages, #users {
+    position: absolute;
+    bottom: 0;
+    max-height: 90%;
+    list-style-type: none;
+    padding: 10px;
+}
+
+form { 
+    padding: 3px; 
+    width: 100%; 
+}
+form input { 
+    width: 90%; 
+    padding: 5px;
+    margin-right: .5%; 
+}
+form button { 
+    width: 9%;
+    background: #1C2541; 
+    color: #95B2B8;
+    border: solid; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    #container {
+      max-width: 100%;
+    }
+}
